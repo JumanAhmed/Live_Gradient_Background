@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/root_layout"
+    android:orientation="vertical"
+tools:context="com.capsulestudio.instagramlivebackgroundtest.SecondEXActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:id="@+id/rotForBtn"
+        android:layout_gravity="center"
+        android:background="@drawable/gradiant_list_for_button"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:background="@drawable/back_btn"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:onClick="kemonHolo"
+            android:textColor="@android:color/white"
+            android:text="Sign Up"
+            tools:targetApi="lollipop" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
